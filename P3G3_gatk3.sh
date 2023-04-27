@@ -59,4 +59,3 @@ gatk CreateSequenceDictionary -R $Reference
   gatk VariantsToTable -V NEN_dataset.vcf -R $Reference -F CHROM -F POS -F AC -F AN -F DP -O /shared/Project_3_Resources/Group3/QXZP/Final/NEN_raw.table
   #ODN
   gatk VariantsToTable -V ODN_dataset.vcf -R $Reference -F CHROM -F POS -F AC -F AN -F DP -O /shared/Project_3_Resources/Group3/QXZP/Final/ODN_raw.table
-
